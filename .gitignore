@@ -1,0 +1,10 @@
+# Dependencies
+vendor
+composer.lock
+
+# IDE files
+.idea
+.settings
+.project
+nbproject
+tests/_output/*

@@ -1,0 +1,26 @@
+{
+  "name": "etki/awful-sdk",
+  "description": "A set of tools to simplify awful development",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Etki",
+      "email": "etki@etki.name"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Etki\\AwfulSDK\\": "src/"
+    }
+  },
+  "require": {
+    "symfony/yaml": "~2.5",
+    "symfony/console": "~2.5"
+  },
+  "require-dev": {
+    "codeception/codeception": "~2.0.5",
+    "mikey179/vfsStream": "*",
+    "composer/composer": "@dev"
+  }
+}
