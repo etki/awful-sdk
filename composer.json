@@ -9,6 +9,7 @@
       "email": "etki@etki.name"
     }
   ],
+  "bin": ["bin/asdk"],
   "autoload": {
     "psr-4": {
       "Etki\\AwfulSDK\\": "src/"
@@ -22,5 +23,8 @@
     "codeception/codeception": "~2.0.5",
     "mikey179/vfsStream": "*",
     "composer/composer": "@dev"
+  },
+  "extra": {
+    "Am i a dog?": "Course you are, you little puffy barker"
   }
 }
