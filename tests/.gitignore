@@ -1,0 +1,3 @@
+/Suites/**/*Tester.php
+/Output/*
+!/Output/.gitkeep

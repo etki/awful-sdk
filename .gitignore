@@ -7,4 +7,12 @@ composer.lock
 .settings
 .project
 nbproject
-tests/_output/*
+
+# Resources
+/resources/temporary
+
+# Executables
+/bin/*
+!/bin/asdk
+
+# Tests extra data

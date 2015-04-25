@@ -4,6 +4,6 @@
 # emulate web requests and make application process them.
 # Include one of framework modules (Symfony2, Yii2, Laravel4) to use it.
 
-class_name: FunctionalTester
+class_name: SystemTester
 modules:
-    enabled: [Filesystem, FunctionalHelper]
+    enabled: [Filesystem, SystemHelper]
